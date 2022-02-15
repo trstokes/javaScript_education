@@ -71,5 +71,6 @@ class Media {
   //console.log(black.runTime)
   black.addRating(5)
   black.toggleCheckOutStatus()
+  black.isCheckedOut = true
   console.log(black.isCheckedOut)
   
